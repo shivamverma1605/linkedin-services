@@ -1,0 +1,103 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+application.yaml
+
+### Java ###
+*.class
+*.log
+*.ctxt
+hs_err_pid*
+
+### Package Files ###
+*.jar
+*.war
+*.ear
+
+### Spring Boot specific ###
+/target/
+/build/
+/out/
+
+# Ignore application secrets
+application.yaml
+application.properties
+*.key
+*.pem
+*.jks
+*.p12
+*.crt
+*.csr
+.env
+
+# If you want to keep a template for configs
+!application-example.yaml
+!application-example.properties
+
+### Maven ###
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+### Gradle ###
+.gradle/
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+bin/
+
+### VS Code ###
+.vscode/
+
+### Mac & Linux ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
